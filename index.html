@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Table sample</title>
+    </head>
+    <body>
+        <center>
+            <h1>Домашня робота 3</h1>
+            <br>
+            <table border="1">
+                <tr>
+                    <th rowspan="2" width="200">Summary</th>
+                    <th width="200">Quarter</th>
+                    <th width="200">Quarter</th>
+                </tr>
+                <tr>
+                    <td>Results</td><td>Results</td>
+                </tr>
+                <tr>
+                    <td>January</td><td>10</td><td>20</td>
+                </tr>
+                <tr>
+                    <td>February</td><td>30</td><td>40</td>
+                </tr>
+                <tr>
+                    <td>Total</td><td colspan="2">40</td>
+                </tr>
+            </table>
+            <br>
+            <form method="POST" action="https://formspree.io/taras.holyk@gmail.com">
+                <lable for="name">Name:</lable>
+                <input type="text" id="name" name="name" required placeholder="Введіть Ім'я">
+                <br>
+                <br>
+                <lable for="email">Email:</lable>
+                <input type="email" id="email" name="email" placeholder="Введіть email">
+                <br>
+                <br>
+                <lable for="password">Pass:</lable>
+                <input type="password" id="password" name="password" placeholder="Введіть Пароль">
+                <br>
+                <br>
+                <input type="submit">
+                <label for="phone" ></label>
+            </form>
+        </center>
+    </body>
+</html>
